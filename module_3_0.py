@@ -7,7 +7,7 @@ def calculate_structure_sum(data_structure):
                  if isinstance(j, str):
                      b = len(j)
                  if isinstance(j, int):
-                     b = sum(i) + len(i)
+                     b = sum(i)
      return(a + b)
 
 
